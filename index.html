@@ -3,54 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abdellah Ennajari | AI Engineer</title>
+    <title>Abdellah Ennajari - AI Engineer</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="js/main.js" defer></script>
 </head>
 <body>
-    <header>
-        <img src="images/profile.jpg" alt="Profile Picture" class="profile-pic">
-        <h1>Abdellah Ennajari</h1>
-        <h2>Machine Learning Engineer Intern</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="nav-brand">Abdellah Ennajari</div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
 
-    <main>
-        <section class="profile">
-            <h2>Profile</h2>
-            <p>Passionate Machine Learning Engineer with a solid background in mathematics and computer science, and practical expertise in deep learning and data science. Demonstrated experience in developing innovative AI solutions, particularly in machine learning and 3D image processing.</p>
-        </section>
-
-        <section class="education">
-            <h2>Education</h2>
-            <ul>
-                <li>2023 -- Present: National School of Artificial Intelligence and Digital, Berkane, Engineering Degree</li>
-                <li>2022 -- 2023: Ibn Zohr University, Ouarzazate, Bachelor's Degree</li>
-                <li>2021 -- 2022: Ibn Zohr University, Ouarzazate, Associate's Degree</li>
-            </ul>
-        </section>
-
-        <section class="work-experience">
-            <h2>Work Experience</h2>
-            <ul>
-                <li>Aug 2024 -- Oct 2024: Data Science Intern at HighTech Governance Systems</li>
-                <li>Aug 2024 -- Sep 2024: AI Engineer at 3D Smart Factory</li>
-                <li>Mar 2023 -- May 2023: Full-Stack Developer at Polydisciplinary Faculty</li>
-            </ul>
-        </section>
+    <main class="hero">
+        <div class="hero-content">
+            <img src="images/profile.jpg" alt="Abdellah Ennajari" class="profile-image">
+            <h1>Abdellah Ennajari</h1>
+            <h2>Machine Learning Engineer</h2>
+            <p class="hero-text">
+                Passionate AI professional with expertise in deep learning and data science, 
+                developing innovative solutions in machine learning and 3D image processing.
+            </p>
+            <div class="cta-buttons">
+                <a href="projects.html" class="btn primary">View Projects</a>
+                <a href="contact.html" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
     </main>
 
+    <section class="skills-highlight">
+        <h2>Technical Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>AI & ML</h3>
+                <p>Deep Learning, Computer Vision, NLP</p>
+            </div>
+            <div class="skill-card">
+                <h3>Frameworks</h3>
+                <p>TensorFlow, PyTorch, Scikit-learn</p>
+            </div>
+            <div class="skill-card">
+                <h3>Languages</h3>
+                <p>Python, Java, C++</p>
+            </div>
+        </div>
+    </section>
+
     <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ennajari-abdellah" target="_blank">LinkedIn</a>
+            <a href="https://github.com/ennajari" target="_blank">GitHub</a>
+        </div>
         <p>&copy; 2024 Abdellah Ennajari. All rights reserved.</p>
     </footer>
-
-    <script src="js/main.js"></script>
 </body>
 </html>
